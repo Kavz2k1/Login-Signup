@@ -10,7 +10,7 @@
     padding-bottom: 20px;
     width: 100%; /* 90% of screen */
      /* but not more than 700px */
-     max-width: 400px;
+     
     height: 90%; /* remove fixed height */
     box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
 }
