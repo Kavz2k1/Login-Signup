@@ -13,6 +13,7 @@
      
     /* height: 90%; remove fixed height */
     box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
+    
 }
 
 .header{
@@ -100,7 +101,7 @@
 @media (max-width: 500px) {
     .container {
         width: 80%;
-       margin: 30px;
+       margin: 20px auto;
         padding: 15px;
     }
 
@@ -114,12 +115,13 @@
     }
 
     .inputs {
-        margin: 10px;
+        margin: 10px 0;
         gap: 10px;
     }
 
     .input {
-        height: 45px;
+      width:100%;
+      height: auto;
     }
 
     .input input {
